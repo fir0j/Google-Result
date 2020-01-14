@@ -1,13 +1,14 @@
 .main,
 .navbar,
-.resultCount,
+.resultFound,
+.searchBox,
 .footerContent {
 	width: 1280px;
 }
 
-.searchBox {
+/* .searchBox {
 	width: 1150px;
-}
+} */
 
 .resultTitle {
 	color: #1a0dab;
