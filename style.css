@@ -9,6 +9,17 @@
 	width: 1150px;
 }
 
+.resultTitle {
+	color: #1a0dab;
+}
+
+.resultLink {
+	color: #006621;
+}
+
+.contentColor {
+	color: #545454;
+}
 /* color: #1a0dab;
 background-color: #f2f2f2;
 box-shadow: 2px 2px 5px -4px gray, -2px -2px 5px -4px gray; */
