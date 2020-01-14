@@ -1,0 +1,13 @@
+.main,
+.footerContent {
+	width: 1280px;
+	color: green;
+}
+
+.searchBox {
+	width: 1150px;
+}
+
+/* color: #1a0dab;
+background-color: #f2f2f2;
+box-shadow: 2px 2px 5px -4px gray, -2px -2px 5px -4px gray; */
