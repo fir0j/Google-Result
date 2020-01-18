@@ -1,15 +1,6 @@
-.main,
-.navbar,
-.resultFound,
-.footerContent {
-}
-
-.w-1280 {
+.max-w-1280 {
 	max-width: 1280px;
 }
-/* .searchBox {
-	width: 1150px;
-} */
 
 .resultTitle {
 	color: #1a0dab;
@@ -32,20 +23,26 @@ footer {
 }
 
 .min-content-text {
-	font-size: 10px;
+	font-size: 6px;
+}
+
+.nav-text {
+	font-size: 2px;
+}
+
+.text-xxs {
+	font-size: 0.6rem;
+}
+
+.max-w-1050 {
+	max-width: 1050px;
 }
 
 .custom-shadow:hover {
 	box-shadow: 2px 2px 5px -4px gray, -2px -2px 5px -4px gray;
 }
 
-@media only screen and (min-device-width: 1280px) {
-	.content-max-width {
-		max-width: 1280px;
-	}
-}
-
-@media only screen and (min-device-width: 0px) {
+@media only screen and (min-device-width: 480px) {
 	.min-content-text {
 		font-size: 10px;
 	}
