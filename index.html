@@ -8,18 +8,18 @@
      <link rel="stylesheet" href="tailwind.min.css">
      <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="xl:flex xl:justify-center xl:items-center">
-        <div class=" w-full relative flex my-4 content-max-width">
+<body class="min-content-text">
+    <header class="xl:flex justify-start xl:items-center border">
+        <div class=" w-full relative flex my-4 content-max-width border">
             <div class="w-2/12 relative self-center pl-1 sm:pl-4 md:pl-8">
-                <img class="inline-block" alt="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                <img class="inline-block md:w-9/12" alt="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
-            <div class="w-8/12 border rounded-full pl-4 mx-2">
+            <div class="w-8/12 border rounded-full pl-4 mx-2 custom-shadow">
                 <form action="#" method="get">
-                    <div class="w-full flex items-center">
-                        <input class="w-full h-12 xl:mt-1 focus:outline-none focus:shadow-outline" type="text" name="search" value="News">
-                        <img class="h-8 xl:h-6 xl:mt-2" alt="googlenow icon" src="./assests/googlenow.png">
-                        <svg  class=" h-12 w-12 xl:h-6 xl:mt-2  fill-current text-blue-500" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <div class="w-full flex items-center xl:pr-8 md:pr-4 sm:pr-2">
+                        <input class="w-full h-12 xl:mt-1 text-sm focus:outline-none" type="text" name="search" value="News">
+                        <img class="h-6 xl:h-8 xl:mr-4 md:mr-2" alt="googlenow icon" src="./assests/googlenow.png">
+                        <svg  class=" h-8 fill-current text-blue-500" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
                         </svg>
                     </div>
@@ -42,11 +42,11 @@
         </div>
     </header>
 
-    <div class="flex mt-4 xl:justify-center">
+    <div class="flex mt-4 justify-start sm:text-xs lg:text-lg md:text-md border">
 
-        <div class="main xl:flex-none leading-relaxed">
+        <div class="main xl:flex-none leading-relaxed border content-max-width">
 
-            <div class="flex flex-no-wrap mb-2">
+            <div class="flex flex-no-wrap mb-2 border">
                 
                     <div class="w-2/12"> </div>
                     <div class=" w-7/12 pl-8">
