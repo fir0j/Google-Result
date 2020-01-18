@@ -26,8 +26,8 @@ footer {
 	font-size: 6px;
 }
 
-.nav-text {
-	font-size: 2px;
+.portrait-text-size {
+	font-size: 0.1rem;
 }
 
 .text-xxs {
@@ -38,6 +38,9 @@ footer {
 	max-width: 1050px;
 }
 
+.xl-padding {
+	padding-left: 20rem;
+}
 .custom-shadow:hover {
 	box-shadow: 2px 2px 5px -4px gray, -2px -2px 5px -4px gray;
 }
@@ -45,5 +48,13 @@ footer {
 @media only screen and (min-device-width: 480px) {
 	.min-content-text {
 		font-size: 10px;
+	}
+
+	.landscape-pl-4 {
+		padding-left: 2rem;
+	}
+
+	.landscape-text-size {
+		font-size: 0.4rem;
 	}
 }
