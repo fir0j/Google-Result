@@ -10,24 +10,24 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body class="min-content-text">
-    <header class="xl:flex justify-start xl:items-center mt-2 xl:mt-4">
+    <header class="xl:flex justify-start xl:items-center mt-4">
         <div class=" w-full relative flex max-w-1280">
 
             <div class="w-2/12 relative self-center mr-3 justify-center flex ">
                 <img class="inline-block p-2 md:p-3 sm:p-0 sm:w-9/12 md:w-8/12" alt="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
-            <div class="w-8/12 border rounded-full pl-4 mr-2 -ml-4 sm:ml-0 custom-shadow">
+            <div class="w-8/12 sm:h-12 border rounded-full pl-4 mr-2 sm:ml-0 custom-shadow">
                 <form action="#" method="get">
-                    <div class="w-full flex items-center xl:pr-8 md:pr-4 sm:pr-2">
-                        <input class="w-full pt-1 md:pt-2 sm:pt-0 sm:h-10 xl:mt-1 focus:outline-none sm:text-xs lg:text-base" type="text" name="search" value="News">
-                    <img class=" mt-1 h-4 sm:h-6 sm:h-6 xl:h-8 xl:mr-4 md:mr-2 xl:mt-3" alt="googlenow icon" src="./assests/googlenow.png">
-                        <svg  class="mt-1 h-6 sm:h-8 sm:h-8 xl:mt-3 mx-2 mr-2 mt-2 fill-current text-blue-500" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <div class="w-full flex items-center md:pr-4 sm:pr-2">
+                        <input class="w-full pt-1 xl:pt-1 md:pt-2 sm:pt-0 sm:h-10 focus:outline-none sm:text-xs lg:text-base" type="text" name="search" value="News">
+                    <img class=" mt-1 h-4 sm:h-6 sm:h-6 xl:h-8 md:mr-2" alt="googlenow icon" src="./assests/googlenow.png">
+                        <svg  class="mt-1 h-6 sm:h-8 sm:h-8 mx-2 mr-2 mt-2 fill-current text-blue-500" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
                         </svg>
                     </div>
                 </form>
             </div>
-            <div class="w-2/12 flex justify-end items-center pr-1 sm:ml-auto">
+            <div class="w-3/12 flex justify-end items-center pr-1 sm:ml-auto">
                 <a class="block p-1"
                     href="https://www.google.com/intl/en/aboout/products/">
                     <img
@@ -46,12 +46,12 @@
     </header>
 
             <nav class="max-w-1280 flex text-gray-600 pt-4">
-                <div class="flex flex-no-wrap w-full sm:pl-8 xl:flex-none md:text-sm portrait-text landscape-text-size">
-                    <div class="w-2/12 xl:pl-20"></div>
-                    <div class="w-full landscape-pl-4 sm:text-xs sm:pl-8 md:pl-8 lg:pl-10 max-w-1050 sm:text-xs flex justify-between flex-no-wrap">
+                <div class="flex flex-no-wrap w-full pl-8 sm:pl-16  xl:pl-4 xl:flex-none landscape-text-size">
+                    <div class="w-2/12"></div>
+                    <div class="w-full lg:pl-2 xl:pl-0 max-w-1050  md:text-xs flex justify-start xl:justify-between flex-no-wrap">
                         <div class="flex">
 
-                        <ul class=" pr-5 mr-1 flex items-center border-b-2 border-blue-600 hover:text-blue-600 cursor-pointer">
+                        <ul class=" pr-4 mr-1 flex items-center border-b-2 border-blue-600 hover:text-blue-600 cursor-pointer">
 
                             <img class="pr-1 inline-block h-3 w-3 sm:h-4 sm:w-4 md:h-6 md:w-6" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPjxwYXRoIGZpbGw9IiMzNEE4NTMiIGQ9Ik0xMCAydjJhNiA2IDAgMCAxIDYgNmgyYTggOCAwIDAgMC04LTh6Ii8+PHBhdGggZmlsbD0iI0VBNDMzNSIgZD0iTTEwIDRWMmE4IDggMCAwIDAtOCA4aDJjMC0zLjMgMi43LTYgNi02eiIvPjxwYXRoIGZpbGw9IiNGQkJDMDQiIGQ9Ik00IDEwSDJhOCA4IDAgMCAwIDggOHYtMmMtMy4zIDAtNi0yLjY5LTYtNnoiLz48cGF0aCBmaWxsPSIjNDI4NUY0IiBkPSJNMjIgMjAuNTlsLTUuNjktNS42OUE3Ljk2IDcuOTYgMCAwIDAgMTggMTBoLTJhNiA2IDAgMCAxLTYgNnYyYzEuODUgMCAzLjUyLS42NCA0Ljg4LTEuNjhsNS42OSA1LjY5TDIyIDIwLjU5eiIvPjwvc3ZnPgo=" alt="" data-atf="1">
                             <a href="#"> All
@@ -115,12 +115,12 @@
                         
                         <div class="flex justify-between">
 
-                            <ul class=" pr-2 lg:pr-6 flex items-center hover:text-blue-600">
+                            <ul class=" px-2 md:pr-6 xl:pr-8 flex items-center hover:text-blue-600">
                                 <a  href="#"> Settings
                                 </a>
                             </ul>
                             
-                            <ul class=" flex items-center hover:text-blue-600">
+                            <ul class=" flex items-center hover:text-blue-600 ">
                                 <a href="#"> Tools
                                 </a>
                             </ul>
@@ -135,7 +135,7 @@
             <!-- end of navbar -->
 
             <div class="max-w-1280  min-content-text">
-                <div class=" pl-1 sm:pl-4 md:pl-6 xl:text-sm flex xl:flex-none flex-no-wrap">
+                <div class=" pl-1 sm:pl-6 md:pl-6 xl:text-sm flex xl:flex-none flex-no-wrap">
                     <div class="w-2/12"></div>
                     <div class="py-3 w-7/12 text-gray-600">
                         About 16,00,00,00,000 results (0.47 seconds) 
@@ -273,7 +273,7 @@
         <div class="flex flex-no-wrap w-full mb-8 -ml-5">
             
             <div class="w-2/12"> </div>
-                <div class="search-result border rounded-lg pb-2 w-6/12 text-sm">
+                <div class="search-result border rounded-lg pb-2 w-6/12 text-xs md:text-sm">
                     <p class="p-2 font-bold text-gray-800">People also ask</p >
                     <hr>
                     <p class="p-2">Which English newspaper is best in India?</p >

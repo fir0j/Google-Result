@@ -33,7 +33,7 @@ footer {
 }
 
 .portrait-text-size {
-	font-size: 0.1rem;
+	font-size: 10rem;
 }
 
 .text-xxs {
@@ -41,7 +41,7 @@ footer {
 }
 
 .max-w-1050 {
-	max-width: 1050px;
+	max-width: 730px;
 }
 
 .xl-padding {
@@ -65,6 +65,6 @@ footer {
 	}
 
 	.landscape-text-size {
-		font-size: 0.4rem;
+		font-size: 0.5rem;
 	}
 }
